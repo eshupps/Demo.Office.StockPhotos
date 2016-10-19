@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+    <link href="../App.css" rel="stylesheet" type="text/css" />
+    <script src="../App.js" type="text/javascript"></script>
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+    <link href="../../Content/jquery.flex-images.css" rel="stylesheet" type="text/css" />
+    <script src="../../Scripts/jquery.flex-images.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/StockPhotos.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content-main">
+        <div class="padding">
+            <p><strong>Stock Photo Search</strong></p>
+            <p><input id="searchTerm" type="text" style="width:99%;" /></p>
+            <button id="get-data-from-selection" onclick="searchPhotos('',''); return false;">Submit</button>
+            <div id="photoSearchResults" style="width:99%;">
+                <div id="photoSearchResults_Header" style="width:100%"></div>
+                <div id="photoSearchResults_Body" style="width:100%;">
+                    <div id="photoSearchResults_Items" class="flex-images"></div>
+                </div>
+                <div id="photoSearchResults_Footer" style="width:100%;text-align:center;"></div>
+            </div>            
+        </div>
+    </div>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
