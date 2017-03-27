@@ -33,21 +33,20 @@
         <DesktopFormFactor>
           <GetStarted>
             <Title resid="residLabel"/>
-            <Description resid="Demo.Office.StockPhotos.Description"/>
+            <Description resid="residDescription"/>
             <LearnMoreUrl resid="residDesktopFuncUrl"/>
           </GetStarted>
           <FunctionFile resid="residDesktopFuncUrl" />
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
             <!--<OfficeTab id="TabDefault">-->
             <CustomTab id="Demo_Office_StockPhotos_Tab">
-              <Label resid="residLabel3" />
-              <Icon>
-                <bt:Image size="16" resid="icon16" />
-                <bt:Image size="32" resid="icon32" />
-                <bt:Image size="80" resid="icon80" />
-              </Icon>
               <Group id="Demo_Office_StockPhotos_Group">
                 <Label resid="residLabel" />
+                <Icon>
+                  <bt:Image size="16" resid="icon16" />
+                  <bt:Image size="32" resid="icon32" />
+                  <bt:Image size="80" resid="icon80" />
+                </Icon>
                 <Control xsi:type="Button" id="Button3Id1">
                   <Label resid="residLabel2" />
                   <Supertip>
@@ -65,6 +64,7 @@
                   </Action>
                 </Control>
               </Group>
+              <Label resid="residLabel3" />
             </CustomTab>
             <!--</OfficeTab>-->
           </ExtensionPoint>
@@ -170,7 +170,7 @@
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="residToolTip" DefaultValue="Stock Photo Search" />
-        <bt:String id="Demo.Office.StockPhotos.Description" DefaultValue="Search for royalty-free stock photos to add to your documents" />
+        <bt:String id="residDescription" DefaultValue="Search for royalty-free stock photos to add to your documents" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
